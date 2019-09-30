@@ -25,7 +25,8 @@ supports 'oracle', '>= 6.0'
 
 chef_version '>= 14.0' if respond_to?(:chef_version)
 
-depends 'apache2', '>= 6.0'
+#depends 'apache2', '>= 6.0'
+depends 'apache2', '5.2.1'
 depends 'chef-vault'
 depends 'firewall'
 depends 'yum-epel'
